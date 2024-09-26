@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-        //通过id，找到界面文件中对应的组件
+        //通过id，找到界面文件中对
         btn1 = findViewById(R.id.button1);
         et1 = findViewById(R.id.editText1);
         tv1 = findViewById(R.id.myText1);
