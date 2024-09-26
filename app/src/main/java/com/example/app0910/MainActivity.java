@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String str = String.valueOf(et1.getText());
-//                Toast.makeText(MainActivity.this,"点到我了。。。。",Toast.LENGTH_LONG).show();
+//                Toast.makeText(MainActivity.this,"点到我。。。。",Toast.LENGTH_LONG).show();
                 Toast.makeText(MainActivity.this,str,Toast.LENGTH_LONG).show();
             }
         });
